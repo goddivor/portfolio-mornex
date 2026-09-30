@@ -20,7 +20,17 @@ L'inventaire des fichiers déposés dans le dossier du projet et de l'usage qui 
 
 ## Sources d'inspiration
 
-À compléter au fil du projet.
+### Modèles Figma présélectionnés (2026-09-30)
+
+Source : galerie communautaire Figma des modèles de portfolio (https://www.figma.com/fr-fr/communaute/modeles-de-portfolio), dont les 48 modèles les plus utilisés ont été passés en revue.
+
+| # | Modèle | Auteur | Lien | Pourquoi il correspond à Mornex |
+|---|---|---|---|---|
+| 1 | Visual portfolio template | iker | https://www.figma.com/community/file/877919752473077115 | Style éditorial d'artiste : grandes images, typographie forte, alternance de pages claires et sombres ; idéal pour mettre en valeur illustrations et planches. |
+| 2 | Graphic Designer Portfolio | Anishka | https://www.figma.com/community/file/1342841743872014140 | Pensé pour un graphiste : galerie d'affiches, de logos et de visuels par catégorie ; parle directement aux clients. |
+| 3 | Space themed portfolio | Jayendra Awasthi | https://www.figma.com/community/file/1192903581929005722 | Portfolio immersif et illustré, construit comme un univers ; transposable en univers Orinu (baobab, savane, motifs africains) où Mornex incarne son personnage. |
+| Autre | Portfolio website for video editors | Muhammad Shahmeer | https://www.figma.com/community/file/1336335420626501247 | Fond sombre et vidéos en avant ; utile pour la section montage vidéo. |
+
 
 ## Liens utiles
 

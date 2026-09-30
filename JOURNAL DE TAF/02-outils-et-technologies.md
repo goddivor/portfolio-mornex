@@ -25,6 +25,13 @@ L'inventaire de tout ce qui sert à construire le portfolio. Chaque entrée pré
 | Node.js | Environnement d'exécution JavaScript hors du navigateur | Faire tourner les outils de développement (serveur local, compilation, build) | 24.19.0 |
 | npm | Gestionnaire de paquets livré avec Node.js | Installer les bibliothèques et lancer les scripts du projet | 11.17.0 |
 
+## Recherche et conception
+
+| Outil | Nature | Rôle dans le projet |
+|---|---|---|
+| Figma (communauté) | Outil de conception d'interfaces en ligne, avec une galerie de modèles partagés | Source d'inspiration pour le design du portfolio |
+| Claude in Chrome | Extension qui permet à Claude de piloter le navigateur Chrome | Parcourir les sites qui bloquent les lectures automatiques (galerie Figma) |
+
 ## Documentation
 
 | Outil | Nature | Rôle dans le projet |

@@ -72,3 +72,17 @@ Mornex n'est pas développeur : c'est un **artiste** (dessinateur, graphiste, a
 
 - Reconnecter l'Atlas CLI (`atlas auth login`), puis créer ou choisir le cluster du portfolio.
 - Initialiser le projet Next.js et le relier à Vercel.
+
+---
+
+## 2026-09-30 (suite) : recherche de modèles de design
+
+### Ce qui a été fait
+
+1. **Exploration de la galerie Figma** des modèles de portfolio, à la demande de Mornex. La page bloquant les lectures automatiques (erreur 403), elle a été parcourue avec **Claude in Chrome**, une extension qui pilote le navigateur Chrome.
+2. **Revue des 48 modèles les plus utilisés**, puis examen visuel des candidats adaptés à un artiste et graphiste.
+3. **Présélection de trois modèles** (et d'un modèle complémentaire), présentés à Mornex et consignés dans `05-ressources.md`.
+
+### Prochaines actions
+
+- Mornex choisit un modèle, ou une combinaison de plusieurs.
