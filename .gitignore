@@ -1,0 +1,20 @@
+# Données brutes fournies par Mornex (originaux lourds ou personnels, non publiés)
+Mes information personnel/
+Les projets que j'ai fait/
+Les projets en cours de developpement/
+Nouveau dossier/
+
+# Dépendances et builds
+node_modules/
+.next/
+dist/
+build/
+.vercel/
+
+# Variables d'environnement (clés MongoDB, etc.)
+.env*
+!.env.example
+
+# Système
+.DS_Store
+Thumbs.db

@@ -1,0 +1,35 @@
+# Journal chronologique
+
+Le récit daté de tout ce qui a été fait sur le projet, du plus ancien au plus récent.
+
+---
+
+## 2026-09-30 : lancement du projet
+
+### Contexte
+
+Mornex Bakeyta souhaite créer son portfolio personnel. Exigence posée dès le départ : **tout documenter de A à Z** (processus, outils, technologies, étapes, choix et leurs raisons) dans un dossier dédié, le « JOURNAL DE TAF ».
+
+Mornex fournira progressivement, dans le dossier du projet, les données nécessaires à son portfolio (informations personnelles, parcours, projets, visuels…). Ces données seront vérifiées régulièrement et intégrées au fur et à mesure.
+
+### Ce qui a été fait
+
+1. **État des lieux du dossier du projet** (`C:\Users\HP\Desktop\JsProject\Portfolio MORNEX`).
+   Le dossier ne contenait qu'un sous-dossier vide, `Nouveau dossier`. Aucune donnée personnelle n'a encore été déposée.
+2. **Inventaire de l'environnement de travail** : Windows 11 Pro, Git 2.45.0, Node.js 24.19.0, npm 11.17.0 (détails dans `02-outils-et-technologies.md`).
+3. **Initialisation du dépôt Git** sur la branche `main` (décision `D-001`).
+4. **Création du dossier `JOURNAL DE TAF`** et de sa structure en cinq fichiers Markdown (décisions `D-002` et `D-003`).
+5. **Réception des premières données de Mornex** : un logo, une photo d'identité, huit photos en cosplay et deux dossiers (encore vides) pour ses projets réalisés et en cours. Inventaire détaillé dans `05-ressources.md`.
+6. **Préparation de la connexion à GitHub** : la GitHub CLI (`gh` 2.66.1) est installée, mais connectée à un compte qui n'est pas celui de Mornex. Choix d'un dépôt public sur le compte de Mornex (décision `D-004`) ; Mornex se connecte avec `gh auth login`.
+7. **Tentative de connexion du compte GitHub de Mornex** : la connexion par `gh auth login` n'a pas abouti. Décision de travailler provisoirement avec le compte `goddivor` (décision `D-005`).
+8. **Choix de la pile de services** : GitHub (code), Vercel (mise en ligne), MongoDB (base de données) ; décision `D-005`.
+9. **Création du fichier `.gitignore`** : il exclut du dépôt les données brutes de Mornex, les dépendances, les builds et les fichiers de variables d'environnement.
+10. **Premier commit et création du dépôt public** `goddivor/portfolio-mornex` sur GitHub, puis envoi du code.
+
+### Prochaines actions
+
+- Trouver une solution pour transférer le dépôt sur le compte GitHub personnel de Mornex.
+- Relier le dépôt à Vercel et créer la base MongoDB Atlas.
+- Attendre le dépôt des données de Mornex dans le dossier du projet, puis les analyser.
+- Définir l'identité du portfolio (sections, ton, style visuel).
+- Choisir le framework du site (voir `E2` dans `04-etapes-du-projet.md`).
