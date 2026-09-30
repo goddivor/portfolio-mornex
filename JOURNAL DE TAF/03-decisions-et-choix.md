@@ -102,3 +102,40 @@ Chaque décision importante est consignée ici avec son contexte, les options en
 - **Choix retenu** : option 3.
 - **Justification** : pas de compte ni de logiciel à installer pour Mornex ; les pages sont reliées entre elles (on peut naviguer comme sur le vrai site) ; les filtres de la galerie, des avis et du formulaire fonctionnent ; Mornex peut commenter directement sur la maquette. Comme les planches sont en HTML, le passage au code Next.js sera plus direct.
 - **Principe appliqué** : aucun contenu inventé. Les informations inconnues (prix, témoignages, nombre d'élèves, numéro WhatsApp…) apparaissent entre crochets, par exemple `[PRIX] FCFA`, pour être remplacées par les vraies données.
+
+---
+
+## D-009 : adopter la direction artistique « couverture de magazine » avec la palette PurRedYel
+
+- **Date** : 2026-09-30
+- **Contexte** : Mornex a fourni une référence (`Design PORTFOLIO/The Portfolio!.jpeg`) : un portrait détouré devant un titre géant « PORTFOLIO » en lettres jaunes condensées, sur un fond uni chaud, avec un court texte en capitales en bas. Il demande cette direction, mais avec **ses** couleurs : violet, rouge, jaune.
+- **Choix retenu** :
+  - reprendre la composition de la référence pour l'accueil : « PORT » derrière la tête, « FOLIO » devant le corps, portrait détouré au centre ;
+  - appliquer le code couleur **PurRedYel** trouvé dans ses fichiers (`codecouleur PurRedYel.png`) : violet `#67309E`, rouge `#E60013`, jaune `#F2CB0A`, prune `#29102E`, bordeaux `#520A0D`, noir `#020003` ;
+  - fond **rouge** pour l'accueil, comme la référence, afin que son bonnet violet ressorte ; violet et prune pour les autres sections ;
+  - photo principale : `_MG_2157`, déjà détourée par Mornex (`Sans titre 13`), où il tient un téléphone. D'où l'appel à l'action « Un projet ? Appelle-moi ».
+- **Justification** : cette composition est immédiatement reconnaissable, montre son visage (la photo d'une vraie personne augmente la confiance) et reste simple, ce qui compte pour la première impression.
+- **Conséquence** : la maquette précédente (`D-008`) garde sa valeur pour la structure et le contenu, mais son style visuel est remplacé.
+
+---
+
+## D-010 : construire le site avec Next.js 16, Tailwind CSS 4, MongoDB et Vercel
+
+- **Date** : 2026-09-30
+- **Choix retenus** :
+  - **Next.js 16** (App Router, TypeScript), dernière version disponible ; application simple placée **à la racine** du dossier, selon les conventions du projet ;
+  - **Tailwind CSS 4** pour le style, avec la palette PurRedYel déclarée comme thème ;
+  - **polices Google** chargées par `next/font` : Anton (titres), DM Sans (texte), Permanent Marker (slogan) ;
+  - **MongoDB** (pilote officiel `mongodb`) pour enregistrer les messages du formulaire de contact et les avis, avec **Zod** pour valider les données reçues ;
+  - **aucun contenu inventé** : les prix inconnus sont affichés « Sur devis » ; la page de preuves ne montre que des références réelles, et les avis n'apparaissent qu'après validation par Mornex.
+- **Justification** : Next.js est conçu par l'équipe de Vercel et s'y déploie sans configuration ; les pages sont générées à l'avance, donc très rapides, ce qui compte sur mobile au Togo ; MongoDB (choix de Mornex) convient à des données simples comme des messages.
+- **Point d'attention** : Next.js 16 introduit des changements (paramètres de page asynchrones, `preload` au lieu de `priority` pour les images, qualités d'image limitées par défaut). La documentation fournie avec le paquet (`node_modules/next/dist/docs/`) a été lue avant d'écrire le code.
+
+---
+
+## D-011 : protéger les données personnelles de Mornex
+
+- **Date** : 2026-09-30
+- **Contexte** : le dossier `Me Nex/` contient des pièces officielles (acte de naissance, certificat de nationalité, analyses médicales, attestations), des candidatures et des données de prospection.
+- **Choix retenu** : `Me Nex/` et `Design PORTFOLIO/` sont ajoutés au `.gitignore`, comme les autres dossiers de données brutes. Le site n'utilise de ces documents que des informations professionnelles : poste à l'IPL « Les Dinosaures » depuis février 2024, Bac F4 (2023), formation en sérigraphie (2023). La date et le lieu de naissance exacts ne sont pas publiés.
+- **Justification** : le dépôt GitHub est public ; ces documents ne doivent jamais y apparaître.

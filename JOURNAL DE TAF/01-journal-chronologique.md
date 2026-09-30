@@ -125,3 +125,35 @@ Un portfolio qui **convertit le plus possible** les visiteurs en clients, profes
 
 - Recueillir les remarques de Mornex sur la maquette.
 - Remplacer les éléments entre crochets par les vraies données.
+
+---
+
+## 2026-09-30 (suite) : nouvelles données et construction du vrai site
+
+### Nouvelles données reçues
+
+Mornex a complété tous les dossiers (inventaire dans `05-ressources.md`) :
+- `Les projets que j'ai fait/` : logos AGED-Togo (du croquis à la version finale), badges de l'Orinu Day, stratégie de marque Orinu, identité de l'Atelier Origuna, affiches, illustrations, planches du personnage, logo de l'Association Nonvignon, fiche et contrat du salon Rose Esthétique, code couleur PurRedYel, 17 montages vidéo (9,7 Go) ;
+- `Les projets en cours de developpement/` : le Programme de Dessin et Arts plastiques (BEPC, BAC I et BAC II) ;
+- `Me Nex/` : profil complet (`profil.json`), CV, lettres de motivation et pièces officielles ;
+- `Design PORTFOLIO/` : 25 références de design, dont la direction artistique choisie.
+
+### Ce qui a été fait
+
+1. **Analyse** des références et des travaux (planches-contacts générées avec Pillow) et des PDF (texte extrait avec PyMuPDF). Découverte des vrais tarifs de l'Atelier Origuna et du code couleur PurRedYel.
+2. **Protection des données personnelles** (décision `D-011`).
+3. **Préparation de 38 images** en WebP (4,2 Mo au total), du favicon et de l'image de partage pour les réseaux sociaux (1200 × 630 px).
+4. **Création du projet Next.js 16** (décision `D-010`) avec la direction artistique « couverture de magazine » (décision `D-009`) :
+   - pages : accueil, services, réalisations (galerie filtrable), 13 fiches projet dont 2 études de cas complètes (AGED-Togo et le personnage Mornex Bakeyta), à propos, CV numérique imprimable en PDF, preuves et témoignages, contact ;
+   - formulaires de contact et d'avis enregistrés dans MongoDB ; avis publiés seulement après validation ;
+   - bouton WhatsApp flottant et messages WhatsApp préremplis selon le besoin ;
+   - référencement : titres et descriptions par page, `sitemap.xml`, `robots.txt`, image de partage.
+5. **Vérifications** : TypeScript sans erreur, ESLint sans avertissement, compilation de production réussie (27 pages générées), captures d'écran de contrôle sur ordinateur et sur mobile avec Playwright.
+6. **Ajustements après captures** : « FOLIO » cachait le visage de Mornex et chevauchait le sous-titre ; les lettres géantes ont été réduites et déplacées, et le dégradé du bas étendu à toute la largeur.
+
+### Difficultés rencontrées
+
+- ESLint saturait la mémoire en analysant les 9,7 Go de vidéos : les dossiers de données sont désormais ignorés dans `eslint.config.mjs` et `tsconfig.json`.
+- Les types `PageProps` et `LayoutProps` de Next.js 16 sont générés par `next typegen` (ou pendant la compilation).
+- L'extension Claude in Chrome s'est déconnectée : les captures ont été faites avec Playwright et le Chromium déjà présent sur la machine.
+- Après une recompilation, l'ancien serveur local servait des fichiers périmés (page sans mise en forme) : il faut arrêter le serveur avant de le relancer.

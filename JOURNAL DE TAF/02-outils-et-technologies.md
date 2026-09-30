@@ -58,4 +58,15 @@ L'inventaire de tout ce qui sert à construire le portfolio. Chaque entrée pré
 
 ## Pile technique du site
 
-Le framework, le style et les animations seront arrêtés à l'étape `E2` (voir `04-etapes-du-projet.md`).
+| Outil | Nature | Rôle dans le projet | Version |
+|---|---|---|---|
+| Next.js | Framework React pour sites web (rendu serveur et pages statiques) | Structure du site, pages, routes API | 16.3.7 |
+| React | Bibliothèque d'interfaces | Composants du site | 19.2.8 |
+| TypeScript | JavaScript typé | Fiabilité du code | 5 |
+| Tailwind CSS | Framework CSS utilitaire | Mise en forme, palette PurRedYel | 4 |
+| next/font (Google Fonts) | Chargement optimisé des polices | Anton, DM Sans, Permanent Marker | intégré |
+| mongodb | Pilote officiel MongoDB pour Node.js | Enregistrer messages et avis | 7.7.0 |
+| Zod | Bibliothèque de validation de données | Vérifier les formulaires côté serveur | 4.6.5 |
+| ESLint | Analyseur de code | Qualité du code | 9 |
+| PyMuPDF | Bibliothèque Python de lecture de PDF | Extraire le texte des PDF de Mornex et en faire des images | outil local |
+| Playwright | Outil d'automatisation de navigateur | Captures d'écran pour vérifier le rendu | 1.52.0 |
