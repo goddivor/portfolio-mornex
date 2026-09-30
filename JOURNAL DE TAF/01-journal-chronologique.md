@@ -86,3 +86,23 @@ Mornex n'est pas développeur : c'est un **artiste** (dessinateur, graphiste, a
 ### Prochaines actions
 
 - Mornex choisit un modèle, ou une combinaison de plusieurs.
+
+---
+
+## 2026-09-30 (suite) : direction artistique et stratégie de conversion
+
+### Demande de Mornex
+
+Un portfolio qui **convertit le plus possible** les visiteurs en clients, professionnel mais fidèle à son univers, en cohérence avec sa personnalité et ses réseaux sociaux.
+
+### Ce qui a été fait
+
+1. **Recherche documentaire** sur ce qui fait convertir un portfolio, confiée à un agent de recherche en parallèle. Chaque chiffre a été rapproché de sa source d'origine, et les chiffres douteux ont été signalés.
+2. **Analyse de l'identité visuelle** : miniatures des 8 photos de cosplay et extraction automatique des couleurs du logo et des photos avec Python et Pillow.
+3. **Analyse des réseaux sociaux** avec Claude in Chrome : profils TikTok et Instagram (les listes de vidéos exigent une connexion, seuls les profils et les vignettes Instagram ont pu être consultés), et présentation Gamma de l'Orinu. Découverte de l'**Orinu Day** et du **Clan Bakeyta**. Le compte TikTok `@mornex.bakeyta4` n'existe plus.
+4. **Rédaction de `07-direction-artistique-et-conversion.md`** : données de conversion, identité visuelle, palette, typographie, ton de voix, structure du site en 8 sections, et liste des éléments à obtenir de Mornex.
+
+### Prochaines actions
+
+- Faire valider la direction artistique par Mornex.
+- Recueillir les éléments listés dans la partie 5 du document.

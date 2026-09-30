@@ -16,7 +16,7 @@ L'inventaire des fichiers déposés dans le dossier du projet et de l'usage qui 
 
 ## Documentation consultée
 
-À compléter au fil du projet.
+Les études sur la conversion des sites (Nielsen Norman Group, Unbounce, Stanford, Google, Deloitte, Spiegel Research Center, DataReportal, GSMA…) sont listées avec leurs résultats dans `07-direction-artistique-et-conversion.md`.
 
 ## Sources d'inspiration
 
@@ -35,4 +35,7 @@ Source : galerie communautaire Figma des modèles de portfolio (https://www.fig
 ## Liens utiles
 
 - Vidéo officielle de présentation de l'Orinu : https://www.tiktok.com/@mornex.bakeyta4/video/7648027477234683168
+- TikTok : https://www.tiktok.com/@mornex_bakeyta
+- Instagram : https://www.instagram.com/mornex_bakeyta/
+- Présentation Gamma de l'Orinu : https://orinu-le-nouveau-nom-off-8zqh403.gamma.site/
 - Dépôt GitHub du projet : https://github.com/goddivor/portfolio-mornex

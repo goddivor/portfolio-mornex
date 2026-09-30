@@ -87,6 +87,11 @@ Ce qu'il aurait voulu après son bac : des études en faculté d'art ou une for
 
 Black Panther, Kirikou, Moana (Vaiana), les films ibo nigérians. Des œuvres qui mettent en avant la culture noire, les traditions, la spiritualité, les récits identitaires et la puissance visuelle africaine.
 
+## Événements et communauté
+
+- **Orinu Day** : événement culturel consacré à l'univers Orinu, organisé par le « Clan Bakeyta » ; la première édition présente officiellement le premier Orinu et inaugure une tradition annuelle (présentation, concert, défilé, concours). Source : affiche publiée sur Instagram.
+- **Présentation Gamma de l'Orinu** : https://orinu-le-nouveau-nom-off-8zqh403.gamma.site/ (identité esthétique, archétypes de personnages, stratégie de diffusion, piliers du mouvement).
+
 ## Vision
 
 - L'Afrique possède déjà les histoires, les cultures et les symboles nécessaires à une industrie forte de la BD ; ce qui manque, c'est la structuration, la discipline, la transmission et un environnement sérieux pour les artistes.
@@ -97,8 +102,8 @@ Black Panther, Kirikou, Moana (Vaiana), les films ibo nigérians. Des œuvres qu
 | Canal | Identifiant (selon B1) |
 |---|---|
 | E-mail professionnel | mornexbakeyta@gmail.com |
-| TikTok | @mornex_bakeyta (la vidéo officielle est publiée sous @mornex.bakeyta4 : à vérifier) |
-| Instagram | @mornex_bakeyta |
+| TikTok | @mornex_bakeyta (confirmé ; l'ancien compte @mornex.bakeyta4 n'existe plus) |
+| Instagram | @mornex_bakeyta (nom affiché : « Juste Mornex ») |
 | LinkedIn | Mornex Bakeyta (lien à fournir) |
 | Facebook | Mornex Bakeyta (lien à fournir) |
 | YouTube | Chaîne Mornex Bakeyta (lien à fournir) |
@@ -107,7 +112,7 @@ Black Panther, Kirikou, Moana (Vaiana), les films ibo nigérians. Des œuvres qu
 ## Points à confirmer avec Mornex
 
 1. Le nom officiel (état civil) et s'il doit apparaître sur le site.
-2. Le bon identifiant TikTok (`@mornex_bakeyta` ou `@mornex.bakeyta4`).
+2. ~~Le bon identifiant TikTok~~ : **résolu**, c'est `@mornex_bakeyta`.
 3. Les liens exacts vers LinkedIn, Facebook et YouTube, et le lien de la chaîne Solo-Geek.
 4. ~~Le statut actuel d'enseignant~~ : **confirmé**, Mornex enseigne déjà le dessin (technique et artistique).
 5. Les éléments personnels du blog (santé mentale, relation amoureuse) : à garder hors du portfolio, sauf demande contraire.

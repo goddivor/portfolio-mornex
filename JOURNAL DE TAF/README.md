@@ -14,6 +14,7 @@ Il est tenu à jour au fil du travail, séance après séance.
 | [04-etapes-du-projet.md](04-etapes-du-projet.md) | La feuille de route : les grandes phases du projet et leur état d'avancement. |
 | [05-ressources.md](05-ressources.md) | Les données fournies par Mornex, la documentation consultée, les sources d'inspiration et les liens utiles. |
 | [06-profil-de-mornex.md](06-profil-de-mornex.md) | La synthèse de tout ce que l\'on sait sur Mornex (identité, parcours, compétences, projet Orinu, réseaux), avec les sources. |
+| [07-direction-artistique-et-conversion.md](07-direction-artistique-et-conversion.md) | Les données sur ce qui fait convertir un portfolio, l\'identité visuelle et la personnalité de Mornex, la palette, la typographie et la structure du site. |
 
 ## Comment lire ce journal
 

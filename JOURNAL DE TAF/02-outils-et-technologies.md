@@ -30,7 +30,8 @@ L'inventaire de tout ce qui sert à construire le portfolio. Chaque entrée pré
 | Outil | Nature | Rôle dans le projet |
 |---|---|---|
 | Figma (communauté) | Outil de conception d'interfaces en ligne, avec une galerie de modèles partagés | Source d'inspiration pour le design du portfolio |
-| Claude in Chrome | Extension qui permet à Claude de piloter le navigateur Chrome | Parcourir les sites qui bloquent les lectures automatiques (galerie Figma) |
+| Claude in Chrome | Extension qui permet à Claude de piloter le navigateur Chrome | Parcourir les sites qui bloquent les lectures automatiques (galerie Figma, TikTok, Instagram) |
+| Python et Pillow | Langage de script et bibliothèque de traitement d'images | Créer des miniatures des photos et extraire automatiquement la palette de couleurs du logo et du cosplay |
 
 ## Documentation
 
