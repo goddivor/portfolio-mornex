@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+/* Palette PurRedYel de Mornex Bakeyta (codecouleur PurRedYel.png) */
+@theme {
+  --color-violet: #67309e;
+  --color-violet-vif: #8a44d1;
+  --color-prune: #29102e;
+  --color-rouge: #e60013;
+  --color-bordeaux: #520a0d;
+  --color-jaune: #f2cb0a;
+  --color-encre: #020003;
+  --color-craie: #fff8ec;
+  --color-gris: #c1c4c4;
+  --color-rose-terre: #ad6262;
+}
+
+@theme inline {
+  --font-display: var(--font-anton), "Impact", sans-serif;
+  --font-sans: var(--font-dm-sans), system-ui, sans-serif;
+  --font-marker: var(--font-permanent-marker), cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-encre);
+  color: #ffffff;
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--color-jaune);
+  color: var(--color-encre);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-jaune);
+  outline-offset: 3px;
+}
+
+/* Bandeau défilant */
+@keyframes defile {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.defile {
+  animation: defile 28s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .defile {
+    animation: none;
+  }
+}
