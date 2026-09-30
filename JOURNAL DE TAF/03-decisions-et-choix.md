@@ -88,3 +88,17 @@ Chaque décision importante est consignée ici avec son contexte, les options en
   - l'**Atlas CLI** (outil en ligne de commande de MongoDB Atlas) est liée au compte MongoDB de Mornex, mais sa session avait expiré : une reconnexion (`atlas auth login`) est nécessaire.
 - **Choix retenu** : ne créer aucun nouveau compte et utiliser ces accès existants.
 - **Justification** : GitHub et Vercel sur le même compte permettent de relier le dépôt en un clic pour le déploiement automatique ; la base de données reste sur le compte de Mornex, qui en garde la propriété.
+
+---
+
+## D-008 : réaliser la maquette sur un canevas de design Claude, avant tout code
+
+- **Date** : 2026-09-30
+- **Contexte** : Mornex a demandé une maquette complète du site (accueil, à propos, services, galerie, étude de cas, CV numérique, témoignages, contact) pour valider l'ambiance avant le développement.
+- **Options envisagées** :
+  1. Maquette dans Figma.
+  2. Maquette codée directement en Next.js.
+  3. Canevas de design Claude (Artifact « Design ») : des planches HTML disposées sur un canevas zoomable, cliquables, commentables et partageables.
+- **Choix retenu** : option 3.
+- **Justification** : pas de compte ni de logiciel à installer pour Mornex ; les pages sont reliées entre elles (on peut naviguer comme sur le vrai site) ; les filtres de la galerie, des avis et du formulaire fonctionnent ; Mornex peut commenter directement sur la maquette. Comme les planches sont en HTML, le passage au code Next.js sera plus direct.
+- **Principe appliqué** : aucun contenu inventé. Les informations inconnues (prix, témoignages, nombre d'élèves, numéro WhatsApp…) apparaissent entre crochets, par exemple `[PRIX] FCFA`, pour être remplacées par les vraies données.

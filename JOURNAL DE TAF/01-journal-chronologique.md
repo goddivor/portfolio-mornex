@@ -106,3 +106,22 @@ Un portfolio qui **convertit le plus possible** les visiteurs en clients, profes
 
 - Faire valider la direction artistique par Mornex.
 - Recueillir les éléments listés dans la partie 5 du document.
+
+---
+
+## 2026-09-30 (suite) : maquette complète du site
+
+### Ce qui a été fait
+
+1. **Préparation des images** avec Python et Pillow : logo, portrait et six photos de cosplay redimensionnés (100 à 125 Ko chacun au lieu de 8 Mo), puis envoyés sur le canevas.
+2. **Création de la maquette** sur un canevas de design Claude (décision `D-008`) : https://claude.ai/artifact/7Tii9gPhBrUSHA7bcaNW8B
+3. **Onze planches**, fidèles à la direction artistique (`07-direction-artistique-et-conversion.md`) :
+   - 1. Accueil · 2. À propos · 3. Services et tarifs · 4. Réalisations (galerie filtrable) ;
+   - 5. Étude de cas « Du croquis au cosplay : la mascotte de l'Orinu » · 6. Témoignages et preuves (filtre clients / élèves) · 7. CV numérique · 8. Contact (boutons WhatsApp par besoin et formulaire de 3 champs) ;
+   - l'accueil en version mobile, et deux composants partagés (navigation, pied de page).
+4. **Polices retenues** : *Anton* (titres), *DM Sans* (texte), *Permanent Marker* (slogan « Ogniaka – Ozonka »), toutes gratuites sur Google Fonts.
+
+### Prochaines actions
+
+- Recueillir les remarques de Mornex sur la maquette.
+- Remplacer les éléments entre crochets par les vraies données.

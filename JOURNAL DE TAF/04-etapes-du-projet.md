@@ -7,7 +7,7 @@ La feuille de route du portfolio. Légende : ✅ terminé · 🔄 en cours · �
 | E0 | Mise en place du projet et du journal | ✅ |
 | E1 | Collecte et analyse des données de Mornex | 🔄 |
 | E2 | Définition du contenu et choix de la pile technique | 🔄 |
-| E3 | Conception visuelle (identité, maquettes) | ⏳ |
+| E3 | Conception visuelle (identité, maquettes) | 🔄 |
 | E4 | Développement | ⏳ |
 | E5 | Tests (affichage mobile, performances, accessibilité, référencement) | ⏳ |
 | E6 | Mise en ligne (hébergement, nom de domaine) | ⏳ |

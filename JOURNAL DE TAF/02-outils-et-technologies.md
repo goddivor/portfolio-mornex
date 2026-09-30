@@ -33,6 +33,13 @@ L'inventaire de tout ce qui sert à construire le portfolio. Chaque entrée pré
 | Claude in Chrome | Extension qui permet à Claude de piloter le navigateur Chrome | Parcourir les sites qui bloquent les lectures automatiques (galerie Figma, TikTok, Instagram) |
 | Python et Pillow | Langage de script et bibliothèque de traitement d'images | Créer des miniatures des photos et extraire automatiquement la palette de couleurs du logo et du cosplay |
 
+## Maquette
+
+| Outil | Nature | Rôle dans le projet |
+|---|---|---|
+| Canevas de design Claude (Artifact « Design ») | Espace de maquettage en ligne : planches HTML sur un canevas zoomable, cliquables et commentables | Maquette complète du site, validée par Mornex avant le développement |
+| Google Fonts : Anton, DM Sans, Permanent Marker | Bibliothèque de polices gratuites | Typographie du site (titres, texte, slogan) |
+
 ## Documentation
 
 | Outil | Nature | Rôle dans le projet |
