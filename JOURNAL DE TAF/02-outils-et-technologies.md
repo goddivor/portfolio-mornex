@@ -36,8 +36,10 @@ L'inventaire de tout ce qui sert à construire le portfolio. Chaque entrée pré
 | Service | Nature | Rôle dans le projet |
 |---|---|---|
 | Vercel | Plateforme d'hébergement et de déploiement continu pour sites et applications web | Mettre le portfolio en ligne ; redéploiement automatique à chaque `git push` sur GitHub |
-| Vercel CLI | Outil en ligne de commande de Vercel (version 41.4.1) | Lier le projet à Vercel, gérer les variables d'environnement, déployer depuis le terminal |
-| MongoDB (Atlas) | Base de données NoSQL orientée documents ; Atlas est sa version hébergée dans le cloud, avec une offre gratuite | Stocker le contenu dynamique (projets, compétences, messages de contact…) |
+| Vercel CLI | Outil en ligne de commande de Vercel (version 41.4.1), connecté au compte `goddivor` | Lier le projet à Vercel, gérer les variables d'environnement, déployer depuis le terminal |
+| MongoDB (Atlas) | Base de données NoSQL orientée documents ; Atlas est sa version hébergée dans le cloud, avec une offre gratuite | Stocker le contenu dynamique (projets, compétences, messages de contact…) ; compte de Mornex |
+| Atlas CLI | Outil en ligne de commande de MongoDB Atlas (version 1.58.3) | Créer et administrer la base (cluster, utilisateurs, accès réseau) depuis le terminal |
+| mongosh | Console interactive de MongoDB (version 2.3.9) | Interroger et vérifier la base de données directement |
 
 ## Pile technique du site
 

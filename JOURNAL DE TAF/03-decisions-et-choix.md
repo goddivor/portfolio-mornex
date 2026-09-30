@@ -41,7 +41,7 @@ Chaque décision importante est consignée ici avec son contexte, les options en
 
 ## D-004 : héberger le code sur le compte GitHub de Mornex, en dépôt public
 
-> **Statut** : révisée par `D-005` (compte GitHub utilisé).
+> **Statut** : révisée par `D-005` (compte GitHub utilisé).
 
 - **Date** : 2026-09-30
 - **Contexte** : Mornex souhaite déployer son portfolio sur son propre compte GitHub. L'ordinateur de travail était déjà connecté à un autre compte GitHub, qui n'est pas celui de Mornex.
@@ -54,16 +54,37 @@ Chaque décision importante est consignée ici avec son contexte, les options en
 
 ---
 
-## D-005 : retenir la pile GitHub, Vercel et MongoDB ; utiliser provisoirement le compte GitHub « goddivor »
+## D-005 : retenir la pile GitHub, Vercel et MongoDB ; utiliser provisoirement le compte GitHub « goddivor »
 
-- **Date** : 2026-09-30
-- **Contexte** : la connexion du compte GitHub personnel de Mornex par la GitHub CLI n'a pas abouti. Mornex a par ailleurs fixé les trois services du projet.
-- **Choix retenus** :
-  1. **GitHub** pour héberger le code ; le dépôt public `portfolio-mornex` est créé sur le compte `goddivor`, déjà connecté sur la machine. Il pourra être transféré plus tard sur le compte de Mornex (fonction « Transfer ownership » de GitHub, qui conserve tout l'historique).
+- **Date** : 2026-09-30
+- **Contexte** : la connexion du compte GitHub personnel de Mornex par la GitHub CLI n'a pas abouti. Mornex a par ailleurs fixé les trois services du projet.
+- **Choix retenus** :
+  1. **GitHub** pour héberger le code ; le dépôt public `portfolio-mornex` est créé sur le compte `goddivor`, déjà connecté sur la machine. Il pourra être transféré plus tard sur le compte de Mornex (fonction « Transfer ownership » de GitHub, qui conserve tout l'historique).
   2. **Vercel** pour mettre le site en ligne, à la place de GitHub Pages.
   3. **MongoDB** comme base de données.
-- **Justification** :
-  - Vercel se relie au dépôt GitHub : chaque envoi de code (`git push`) redéploie le site automatiquement ; Vercel sait aussi exécuter du code côté serveur, ce que GitHub Pages ne permet pas.
-  - MongoDB stocke des documents au format proche du JSON, bien adapté à un contenu souple (projets, compétences, messages du formulaire de contact) ; sa version hébergée, MongoDB Atlas, propose une offre gratuite.
+- **Justification** :
+  - Vercel se relie au dépôt GitHub : chaque envoi de code (`git push`) redéploie le site automatiquement ; Vercel sait aussi exécuter du code côté serveur, ce que GitHub Pages ne permet pas.
+  - MongoDB stocke des documents au format proche du JSON, bien adapté à un contenu souple (projets, compétences, messages du formulaire de contact) ; sa version hébergée, MongoDB Atlas, propose une offre gratuite.
   - Utiliser le compte `goddivor` débloque le travail tout de suite, sans attendre la résolution du problème de connexion.
-- **Conséquence** : les dossiers de données brutes de Mornex sont exclus du dépôt (fichier `.gitignore`), car ils contiennent des originaux lourds (64 Mo) et des données personnelles. Les clés de connexion à MongoDB ne seront jamais versionnées (fichiers `.env*` exclus).
+- **Conséquence** : les dossiers de données brutes de Mornex sont exclus du dépôt (fichier `.gitignore`), car ils contiennent des originaux lourds (64 Mo) et des données personnelles. Les clés de connexion à MongoDB ne seront jamais versionnées (fichiers `.env*` exclus).
+
+---
+
+## D-006 : positionner le portfolio sur deux métiers, avec le cosplay en passion
+
+- **Date** : 2026-09-30
+- **Contexte** : Mornex a précisé ses activités. Il exerce deux métiers (enseignant de dessin, graphiste designer), propose des services complémentaires (vidéo, IA, community management, rédaction) et pratique le cosplay par passion.
+- **Choix retenu** : le portfolio met au premier plan les **deux métiers exercés** ; les services complémentaires forment une offre secondaire ; le cosplay et l'univers Orinu apparaissent dans une partie **passion et univers créatif**, et non comme une prestation.
+- **Justification** : un visiteur (client, école, recruteur) doit comprendre en quelques secondes ce que Mornex fait **aujourd'hui** et ce qu'il peut lui commander. Le cosplay et l'Orinu, eux, donnent au site sa personnalité et le distinguent des autres portfolios de graphistes.
+
+---
+
+## D-007 : réutiliser les comptes Vercel et MongoDB Atlas déjà configurés
+
+- **Date** : 2026-09-30
+- **Contexte** : Mornex dispose déjà d'accès à Vercel et à MongoDB, configurés sur la machine de travail.
+- **Constat** :
+  - la **Vercel CLI** est connectée au compte `goddivor`, le même que pour GitHub ;
+  - l'**Atlas CLI** (outil en ligne de commande de MongoDB Atlas) est liée au compte MongoDB de Mornex, mais sa session avait expiré : une reconnexion (`atlas auth login`) est nécessaire.
+- **Choix retenu** : ne créer aucun nouveau compte et utiliser ces accès existants.
+- **Justification** : GitHub et Vercel sur le même compte permettent de relier le dépôt en un clic pour le déploiement automatique ; la base de données reste sur le compte de Mornex, qui en garde la propriété.

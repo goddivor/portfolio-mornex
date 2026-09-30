@@ -4,6 +4,7 @@ Synthèse des informations recueillies sur Mornex, qui serviront de base au cont
 
 **Sources** :
 - [B1] Blog « Mornex Bakeyta, c'est qui ? » : https://mornexbakeyta.blogspot.com/ (articles du 2026-05-23 et du 2026-06-09).
+- [M] Précisions données directement par Mornex le 2026-09-30 (elles priment sur les blogs).
 - [B2] Blog « ORINU : Le Nouveau Nom Officiel de la Bande Dessinée Africaine » : https://mornexousagui.blogspot.com/ (article du 2025-12-08, titre seul, sans texte).
 
 ---
@@ -23,7 +24,27 @@ Synthèse des informations recueillies sur Mornex, qui serviront de base au cont
 
 ## Métiers et positionnement
 
-Dessinateur, illustrateur et animateur 2D, graphiste designer, professeur de dessin BD africain et **créateur de l'univers Orinu**.
+### Métiers exercés actuellement [M]
+
+1. **Enseignant de dessin**, dans deux registres :
+   - le **dessin technique** en contexte industriel ;
+   - le **dessin artistique** : illustration de BD, animation 2D, dessin d'art.
+2. **Graphiste designer** :
+   - affiches, logos, flyers, cartes de visite ;
+   - illustrations et designs à imprimer sur t-shirts et posters ;
+   - **character design** (création de personnages) ;
+   - **environment design** : création d'environnements, d'univers.
+
+### Autres services qu'il peut proposer [M]
+
+- Création visuelle assistée par **intelligence artificielle**.
+- **Création et montage vidéo**, animations, **edits d'anime** (AMV) ; ses vidéos publiées sur les réseaux en donnent des exemples.
+- **Community management** : gestion des réseaux sociaux pour des clients.
+- **Rédaction et copywriting**.
+
+### Passion : le cosplay [M]
+
+Le cosplay n'est pas un métier mais une **passion et un loisir**. C'est pour lui un moyen de développer sa créativité et d'**incarner ses propres personnages** (comme la mascotte Mornex Bakeyta de l'univers Orinu).
 
 Positionnement en une phrase (B1) : un créateur africain qui veut « construire, transmettre et créer des œuvres enracinées dans [sa] propre identité ».
 
@@ -53,11 +74,13 @@ Ce qu'il aurait voulu après son bac : des études en faculté d'art ou une for
 
 | Domaine | Détail |
 |---|---|
-| Dessin et animation 2D | Dessin, illustration, animation 2D, création de personnages |
-| Graphisme | Photoshop, Canva ; affiches, logos, flyers, badges, cartes de visite, cartes de mariage, certificats de formation, visuels de communication |
-| Montage vidéo | AMV, vidéos de citations, montages drôles ou « badass », contenu pour sa chaîne **Solo-Geek** |
+| Enseignement | Dessin technique industriel, dessin artistique, illustration BD, animation 2D |
+| Dessin et animation 2D | Dessin, illustration, animation 2D, character design, environment design |
+| Graphisme | Photoshop, Canva ; affiches, logos, flyers, badges, cartes de visite, cartes de mariage, certificats de formation, visuels de communication, designs pour t-shirts et posters |
+| Montage vidéo | Création de vidéos, animations, edits d'anime (AMV), vidéos de citations, montages drôles ou « badass », contenu pour sa chaîne **Solo-Geek** |
 | Secrétariat et bureautique | Saisie, mise en page Word, PowerPoint, CV, devis, reçus, procès-verbaux |
 | Sérigraphie et impression | Impression sur supports, sérigraphie, personnalisation visuelle |
+| Réseaux sociaux et rédaction | Community management, rédaction, copywriting |
 | Bâtiment | Conception de plans, génie civil, conduite de travaux (Bac F4) |
 
 ## Inspirations
@@ -86,5 +109,5 @@ Black Panther, Kirikou, Moana (Vaiana), les films ibo nigérians. Des œuvres qu
 1. Le nom officiel (état civil) et s'il doit apparaître sur le site.
 2. Le bon identifiant TikTok (`@mornex_bakeyta` ou `@mornex.bakeyta4`).
 3. Les liens exacts vers LinkedIn, Facebook et YouTube, et le lien de la chaîne Solo-Geek.
-4. Le statut actuel d'enseignant : déjà professeur de dessin BD africain, ou objectif à venir ? (B1 emploie les deux formulations.)
+4. ~~Le statut actuel d'enseignant~~ : **confirmé**, Mornex enseigne déjà le dessin (technique et artistique).
 5. Les éléments personnels du blog (santé mentale, relation amoureuse) : à garder hors du portfolio, sauf demande contraire.

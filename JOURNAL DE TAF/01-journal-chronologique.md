@@ -53,3 +53,22 @@ Mornex n'est pas développeur : c'est un **artiste** (dessinateur, graphiste, a
 - Faire valider par Mornex les points listés à la fin de `06-profil-de-mornex.md`.
 - Recevoir ses œuvres (dessins, planches Orinu, affiches, logos, vidéos) pour les dossiers de projets.
 - Définir les sections du site à partir du profil.
+
+---
+
+## 2026-09-30 (suite) : précisions de Mornex et vérification des accès
+
+### Ce qui a été fait
+
+1. **Précisions de Mornex sur ses activités**, intégrées dans `06-profil-de-mornex.md` :
+   - il **enseigne déjà** le dessin (dessin technique industriel et dessin artistique : BD, animation 2D) ;
+   - il est **graphiste designer** (affiches, logos, flyers, cartes de visite, designs pour t-shirts et posters, character design, environment design) ;
+   - il propose aussi la vidéo et l'animation, la création assistée par IA, le community management et le copywriting ;
+   - le **cosplay est une passion**, pas un métier : un moyen d'incarner ses personnages.
+2. **Positionnement du site** arrêté (décision `D-006`).
+3. **Vérification des accès existants** (décision `D-007`) : Vercel est opérationnel sur le compte `goddivor` ; l'Atlas CLI est liée au compte MongoDB de Mornex, mais sa session a expiré.
+
+### Prochaines actions
+
+- Reconnecter l'Atlas CLI (`atlas auth login`), puis créer ou choisir le cluster du portfolio.
+- Initialiser le projet Next.js et le relier à Vercel.
