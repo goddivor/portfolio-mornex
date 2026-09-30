@@ -33,3 +33,23 @@ Mornex fournira progressivement, dans le dossier du projet, les données nécess
 - Attendre le dépôt des données de Mornex dans le dossier du projet, puis les analyser.
 - Définir l'identité du portfolio (sections, ton, style visuel).
 - Choisir le framework du site (voir `E2` dans `04-etapes-du-projet.md`).
+
+---
+
+## 2026-09-30 (suite) : découverte du profil de Mornex
+
+### Ce qui a été fait
+
+1. **Réception de deux liens** vers les blogs de Mornex, sur lesquels il avait déjà commencé à se présenter.
+2. **Extraction du contenu complet** des articles. La page web ne livrant qu'un aperçu, le texte intégral a été récupéré par le flux JSON public de Blogger (`/feeds/posts/default?alt=json`), avec `curl` et un petit script Python.
+3. **Rédaction de la fiche `06-profil-de-mornex.md`** : identité, métiers, concept Orinu, parcours, compétences, inspirations, vision, réseaux, et liste des points à confirmer.
+
+### Ce que l'on retient
+
+Mornex n'est pas développeur : c'est un **artiste** (dessinateur, graphiste, animateur 2D, professeur de dessin BD africain) et le **créateur de l'Orinu**, un concept de BD africaine moderne. Le portfolio devra donc être avant tout **visuel** et porter une **identité africaine** forte, fidèle à son slogan « Ogniaka – Ozonka : être africain, faire africain ».
+
+### Prochaines actions
+
+- Faire valider par Mornex les points listés à la fin de `06-profil-de-mornex.md`.
+- Recevoir ses œuvres (dessins, planches Orinu, affiches, logos, vidéos) pour les dossiers de projets.
+- Définir les sections du site à partir du profil.

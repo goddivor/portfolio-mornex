@@ -13,6 +13,7 @@ Il est tenu à jour au fil du travail, séance après séance.
 | [03-decisions-et-choix.md](03-decisions-et-choix.md) | Chaque décision importante : le contexte, les options envisagées, le choix retenu et sa justification. |
 | [04-etapes-du-projet.md](04-etapes-du-projet.md) | La feuille de route : les grandes phases du projet et leur état d'avancement. |
 | [05-ressources.md](05-ressources.md) | Les données fournies par Mornex, la documentation consultée, les sources d'inspiration et les liens utiles. |
+| [06-profil-de-mornex.md](06-profil-de-mornex.md) | La synthèse de tout ce que l\'on sait sur Mornex (identité, parcours, compétences, projet Orinu, réseaux), avec les sources. |
 
 ## Comment lire ce journal
 
